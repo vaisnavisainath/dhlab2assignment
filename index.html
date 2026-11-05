@@ -165,7 +165,7 @@
         line-height: 1.25;
         text-decoration: none;
       }
-      .repository-link::after { content: "\\2197"; font-size: 1rem; }
+      .repository-link::after { content: "\2197"; font-size: 1rem; }
       .repository-link:hover { color: #fff; background: var(--accent-deep); border-color: var(--accent-deep); }
       .assignment-body { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
       .assignment-body > :last-child { margin-bottom: 0; }
@@ -292,14 +292,13 @@
             <dd>IIT (ISM) Dhanbad</dd>
           </div>
         </dl>
-        <p class="student-note">Replace text in square brackets before publishing.</p>
       </aside>
 
       <main id="main-content">
         <!-- EDIT HERE: This page collects several assignments by one student. -->
         <section class="hero" aria-labelledby="portfolio-title">
           <p class="label project-kicker">Student portfolio</p>
-          <h1 id="portfolio-title">Vaisnavi Sainath&rsquo;s Digital Humanities Portfolio</h1>
+          <h1 id="portfolio-title">Vaisnavi Sainath's Digital Humanities Portfolio</h1>
           <p class="abstract"><strong>Portfolio introduction.</strong> [EDIT: In 2&ndash;4 sentences, introduce the interests, questions, materials, or methods that connect your assignments. Readers can explore each exhibition below.]</p>
 
           <nav class="contents-nav" aria-label="Assignments on this page">
@@ -309,6 +308,7 @@
               <li><a href="#assignment-1">Assignment 01</a></li>
               <li><a href="#assignment-2">Assignment 02</a></li>
               <li><a href="#assignment-3">Assignment 03</a></li>
+              <li><a href="#assignment-4">Assignment 04</a></li>
             </ul>
           </nav>
         </section>
@@ -328,42 +328,52 @@
             <article class="assignment" id="assignment-1" aria-labelledby="assignment-1-title">
               <header>
                 <span class="assignment-index">Assignment 01</span>
-                <h3 id="assignment-1-title">[EDIT: Title of your first assignment]</h3>
+                <h3 id="assignment-1-title">Indic Stop Words</h3>
               </header>
-              <p class="assignment-abstract"><strong>Abstract.</strong> [EDIT: Give a short description of this assignment: the question, material, method, and main insight.]</p>
+              <p class="assignment-abstract"><strong>Abstract.</strong> This assignment compiles Hindi and Bhojpuri stop words in Devanagari script, grouped into six grammatical categories such as pronouns, postpositions, auxiliary verbs and particles. Bhojpuri has very few ready-made NLP resources, so the lists aim to support text cleaning for low-resource Indic NLP.</p>
               <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
-              <p class="assignment-repository"><a class="repository-link" href="https://github.com/your-username/your-assignment-1-repository" target="_blank" rel="noopener noreferrer">View this project&rsquo;s GitHub repository</a></p>
+              <p class="assignment-repository"><a class="repository-link" href="https://github.com/vaisnavisainath/stopwords.git" target="_blank" rel="noopener noreferrer">View this project's GitHub repository</a></p>
               <div class="assignment-body">
-                <p class="edit-callout">Visible assignment work</p>
-                <p>[EDIT: Place the actual first assignment here. Add paragraphs, images, a timeline, linked media, data, maps, or your own HTML. This space should show the work, not only describe it.]</p>
+                <p class="edit-callout"><a href = "https://vaisnavisainath.github.io/stopwords/">Visible assignment work</a></p>
               </div>
             </article>
 
             <article class="assignment" id="assignment-2" aria-labelledby="assignment-2-title">
               <header>
                 <span class="assignment-index">Assignment 02</span>
-                <h3 id="assignment-2-title">[EDIT: Title of your second assignment]</h3>
+                <h3 id="assignment-2-title">Extracting Indian Flora and Fauna with RAG</h3>
               </header>
               <p class="assignment-abstract"><strong>Abstract.</strong> [EDIT: Give a short description of this assignment: the question, material, method, and main insight.]</p>
               <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
-              <p class="assignment-repository"><a class="repository-link" href="https://github.com/your-username/your-assignment-2-repository" target="_blank" rel="noopener noreferrer">View this project&rsquo;s GitHub repository</a></p>
+              <p class="assignment-repository"><a class="repository-link" href="https://github.com/vaisnavisainath/flora-fauna-extraction.git" target="_blank" rel="noopener noreferrer">View this project's GitHub repository</a></p>
               <div class="assignment-body">
-                <p class="edit-callout">Visible assignment work</p>
-                <p>[EDIT: Place the actual second assignment here. Delete this entire block if you do not need it, or copy a block to add more assignments.]</p>
+                <p class="edit-callout"><a href="https://vaisnavisainath.github.io/flora-fauna-extraction/">Visible assignment work</a></p>
               </div>
             </article>
 
             <article class="assignment" id="assignment-3" aria-labelledby="assignment-3-title">
               <header>
                 <span class="assignment-index">Assignment 03</span>
-                <h3 id="assignment-3-title">[EDIT: Title of your third assignment]</h3>
+                <h3 id="assignment-3-title">Synthetic Reading of a Short Story</h3>
+              </header>
+              <p class="assignment-abstract"><strong>Abstract.</strong> Synthetic reading of Charlotte Perkins Gilman’s “The Yellow Wallpaper” through feminist standpoint epistemology and the medical gaze, with LLM theme extraction, verified evidence, and a vocabulary count per tenth of the story.</p>
+              <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
+              <p class="assignment-repository"><a class="repository-link" href="https://github.com/vaisnavisainath/synthetic-reading.git" target="_blank" rel="noopener noreferrer">View this project's GitHub repository</a></p>
+              <div class="assignment-body">
+                <p class="edit-callout"><a href= "https://vaisnavisainath.github.io/synthetic-reading/">Visible assignment work</a></p>
+              </div>
+            </article>
+
+            <article class="assignment" id="assignment-4" aria-labelledby="assignment-4-title">
+              <header>
+                <span class="assignment-index">Assignment 04</span>
+                <h3 id="assignment-4-title">Creating a SKILL for an LLM</h3>
               </header>
               <p class="assignment-abstract"><strong>Abstract.</strong> [EDIT: Give a short description of this assignment: the question, material, method, and main insight.]</p>
               <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
-              <p class="assignment-repository"><a class="repository-link" href="https://github.com/your-username/your-assignment-3-repository" target="_blank" rel="noopener noreferrer">View this project&rsquo;s GitHub repository</a></p>
+              <p class="assignment-repository"><a class="repository-link" href="https://github.com/vaisnavisainath/Skill-for-LLM.git" target="_blank" rel="noopener noreferrer">View this project's GitHub repository</a></p>
               <div class="assignment-body">
-                <p class="edit-callout">Visible assignment work</p>
-                <p>[EDIT: Place the actual third assignment here. Duplicate this block if you have more assignments to exhibit.]</p>
+                <p class="edit-callout"><a href = "https://vaisnavisainath.github.io/Skill-for-LLM/">Visible assignment work</a></p>
               </div>
             </article>
           </div>
